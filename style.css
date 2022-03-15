@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    font-family: 'Poppins';
+}
+
+.main h2.header{
+    background-color: black;
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    line-height: 160px;
+}
+
+.main .prod{
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 56px;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+
+.main .prod .price{
+    font-weight: 500;
+    color: #E10303;
+}
+
+.main .order{
+    padding-top: 60px;
+    border-top: 5px solid #DCDCDC;
+}
+
+.main .order p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.main .order p span{
+    font-weight: 500;
+}
+
+.main .order-btn{
+    margin-top: 21px;
+    text-align: center;
+    padding-bottom: 102px;
+}
+
+.main .order-btn a i{
+    margin-right: 10px;
+    font-size: 29px;
+    position: relative;
+    top: 4px;
+}
+
+.main .order-btn a{
+    cursor: pointer;
+    vertical-align: middle;
+    width: 200px;
+    line-height: 50px;
+    display: inline-block;
+    color: white;
+    padding: 0 18px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #25D366;
+}
