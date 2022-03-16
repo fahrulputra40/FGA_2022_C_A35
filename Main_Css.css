@@ -19,22 +19,26 @@
 
   .top-wrapper {
     padding: 200px 0 100px ;
-    background-image: url(file:///D:/pro/CoverCUT.png);
+    background-image: url('./assets/6142941\ 1.png');
     background-size: cover;
     color: white;
     text-align: center;
     height: 700px;
     width: 100%;
   }
-  .top-wrapper h2 {
+  .top-wrapper .infloat {
+    float: left;
+  }
+
+  .infloat h2{
     color: black;
     width: 420px;
-    height: 90;
+    height: 90px;
     padding: 10px;
     background-color: white;
     font-size: 48px;
-    float:left;
     margin-left: 60px;
+    padding-top: 20px;
   }
   .top-wrapper h1 {
     width: 681px;
@@ -48,7 +52,6 @@
   }
   .btn-wrapper {
     text-align: left;
-
   }
   .shopnow {
     background-color: #000000;
