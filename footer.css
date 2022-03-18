@@ -1,0 +1,51 @@
+  footer{
+    padding-top:15px;
+    background-color: #c8c8c8;
+    padding-bottom: 20px;
+  }
+  footer img{
+    width: 65px;
+    display: inline-block;
+  }
+  .subs{
+    display: inline-block;
+    text-align: left;
+  }
+  .subs2{
+    display: inline-block;
+    text-align: center;
+    margin-left: 31%;
+  }
+  .subs3{
+    display: inline-block;
+    text-align: right;
+    float: right;
+
+  }
+  .faq{
+    font-size: 17px;
+    font-style: bold;
+  }
+  .email{
+    font-family: Roboto;
+    background-color: #ffffff;
+    border:#eee 3px;
+    color: #5f5d60;
+    text-align: center;
+    width: 260px 36px;
+  }
+  .subc{
+    font-family: Roboto;
+    background-color: #000000;
+    border: #ffffff 5px;
+    color: #ffffff;
+    padding-top: 10;
+  }
+  .subc:hover{
+    opacity: 0.1;
+  }
+  .copyright{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 10px;
+  }
